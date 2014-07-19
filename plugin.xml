@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <plugin id="com.diusrex.update" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
-    <name>com.diusrex.update</name>
+    <name>Update App</name>
     <description>Allows the app to open the play store to the current app</description>
     <author>Morgan Redshaw</author>
     <license>Apache 2.0</license>
