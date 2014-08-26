@@ -16,7 +16,9 @@ Usage
 To use inside of your javascript code, use the following line:
 
 ```javascript
-updateApp(successFunction, errorFunction);
+updateApp(shouldQuitApp, successFunction, errorFunction);
 ```
+
+<b>shouldQuitApp</b>: Will determine if the app should be finished upon the play store being opened. NOTE: Does NOT guarantee that the user will update the app, just that they will be brought to the play store for the app.
 
 <b>success/errorFunction</b>: The functions that will be called on error and success.

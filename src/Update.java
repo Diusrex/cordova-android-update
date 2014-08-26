@@ -43,6 +43,11 @@ public class Update extends CordovaPlugin {
             activity.startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://play.google.com/store/apps/details?id=" + appPackageName)));
         }
 
+        boolean quitApp = args.getBoolean(0);
+        if (quitApp) {
+            activity.finish();
+        }
+
         return true;
     }
 };

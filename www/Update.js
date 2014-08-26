@@ -21,8 +21,8 @@ var exec = require('cordova/exec');
 
 
 // mainClassName should NOT contain the package information
-updateApp = function(successFunction, errorFunction) {
-    exec(successFunction, errorFunction, "Update", "", []);
+updateApp = function(quitApp, successFunction, errorFunction) {
+    exec(successFunction, errorFunction, "Update", "", [quitApp]);
 };
 
 module.exports = updateApp;
